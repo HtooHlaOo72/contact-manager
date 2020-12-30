@@ -2,6 +2,7 @@
   "name": "contact-app",
   "version": "0.1.0",
   "private": true,
+  "homepage":"https://github.com/HtooHlaOo72/contact-manager",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.32",
     "@fortawesome/free-solid-svg-icons": "^5.15.1",
@@ -21,6 +22,7 @@
     "web-vitals": "^0.2.4"
   },
   "scripts": {
+    "deploy":"npm run build&&gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
